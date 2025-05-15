@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    background-color: #fffbdf;
+    font-family: 'Inknut Antiqua', serif;
+    color: #30382f;
+  }
+  
+  header {
+    background: #30382f;
+    height: 216px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 60px;
+  }
+  
+  #logo {
+    font-family: 'Paquito', serif;
+    color: #fffbdf;
+    font-size: 64px;
+    line-height: 1;
+  }
+  
+  #logo span {
+    font-size: 48px;
+    display: block;
+  }
+  
+  nav ul {
+    display: flex;
+    list-style: none;
+    gap: 50px;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: #fffbdf;
+    font-size: 24px;
+  }
+  
+  footer {
+    background: #30382f;
+    color: #ffffff;
+    text-align: center;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+  }
+  
