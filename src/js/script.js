@@ -32,3 +32,15 @@ document.addEventListener("DOMContentLoaded", () => {
         currentIndex = (currentIndex + 1) % imgs.length;
     }, 2000); // troca a cada 3 segundos
 });
+
+// Splash Screen
+window.addEventListener('load', () => {
+    const splash = document.getElementById('splash');
+    setTimeout(() => {
+      splash.style.opacity = '0';
+      setTimeout(() => {
+        splash.style.display = 'none';
+      }, 1000);
+    }, 1500); // Tempo que a splash fica visível (2 segundos)
+  });
+  
