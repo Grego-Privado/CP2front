@@ -53,7 +53,7 @@
   }
 
   .cardapio {
-    padding: 60px 100px;
+    padding: 60px 80px;
     background-color: #FFFBDF;
     font-family: 'Inknut Antiqua', serif;
     color: #30382F;
@@ -62,52 +62,90 @@
   .titulo-cardapio {
     text-align: center;
     font-size: 48px;
-    margin-bottom: 40px;
+    margin-bottom: 60px;
     font-family: 'Paquito', serif;
   }
   
   .grupo-categorias {
     display: grid;
+    grid-template-columns: 1fr 1fr;
     gap: 60px;
   }
   
   .categoria h3 {
     font-size: 36px;
-    color: #30382F;
     border-bottom: 2px solid #30382F;
     padding-bottom: 8px;
     margin-bottom: 24px;
   }
   
   .item {
+    display: flex;
+    align-items: flex-start;
     background-color: #fff5c8;
-    padding: 20px 30px;
+    padding: 20px;
     border-radius: 20px;
-    margin-bottom: 20px;
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    margin-bottom: 24px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.12);
     transition: transform 0.2s ease;
   }
   
   .item:hover {
-    transform: scale(1.02);
+    transform: scale(1.015);
+  }
+  
+  .item img {
+    width: 120px;
+    height: 120px;
+    border-radius: 12px;
+    object-fit: cover;
+    margin-right: 20px;
+    flex-shrink: 0;
+  }
+  
+  .conteudo-item {
+    flex: 1;
   }
   
   .item h4 {
-    font-size: 28px;
+    font-size: 24px;
     margin-bottom: 6px;
     font-weight: 600;
   }
   
   .item .descricao {
     font-size: 16px;
-    margin-bottom: 10px;
-    color: #666;
+    margin-bottom: 8px;
+    color: #444;
   }
   
   .item .preco {
-    font-size: 20px;
+    font-size: 18px;
     font-weight: bold;
     color: #30382F;
   }
   
+  /* Responsivo */
+  @media (max-width: 900px) {
+    .grupo-categorias {
+      grid-template-columns: 1fr;
+    }
+  
+    .item {
+      flex-direction: column;
+      align-items: center;
+      text-align: center;
+    }
+  
+    .item img {
+      margin: 0 0 15px 0;
+      width: 100%;
+      max-width: 250px;
+      height: auto;
+    }
+  
+    .conteudo-item {
+      align-items: center;
+    }
+  }
   

@@ -41,6 +41,6 @@ window.addEventListener('load', () => {
       setTimeout(() => {
         splash.style.display = 'none';
       }, 1000);
-    }, 1500); // Tempo que a splash fica visível (2 segundos)
+    }, 1200); // Tempo que a splash fica visível (2 segundos)
   });
   
