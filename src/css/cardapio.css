@@ -51,4 +51,63 @@
     width: 100%;
     bottom: 0;
   }
+
+  .cardapio {
+    padding: 60px 100px;
+    background-color: #FFFBDF;
+    font-family: 'Inknut Antiqua', serif;
+    color: #30382F;
+  }
+  
+  .titulo-cardapio {
+    text-align: center;
+    font-size: 48px;
+    margin-bottom: 40px;
+    font-family: 'Paquito', serif;
+  }
+  
+  .grupo-categorias {
+    display: grid;
+    gap: 60px;
+  }
+  
+  .categoria h3 {
+    font-size: 36px;
+    color: #30382F;
+    border-bottom: 2px solid #30382F;
+    padding-bottom: 8px;
+    margin-bottom: 24px;
+  }
+  
+  .item {
+    background-color: #fff5c8;
+    padding: 20px 30px;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+    transition: transform 0.2s ease;
+  }
+  
+  .item:hover {
+    transform: scale(1.02);
+  }
+  
+  .item h4 {
+    font-size: 28px;
+    margin-bottom: 6px;
+    font-weight: 600;
+  }
+  
+  .item .descricao {
+    font-size: 16px;
+    margin-bottom: 10px;
+    color: #666;
+  }
+  
+  .item .preco {
+    font-size: 20px;
+    font-weight: bold;
+    color: #30382F;
+  }
+  
   
