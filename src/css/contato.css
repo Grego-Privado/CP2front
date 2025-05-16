@@ -1,0 +1,84 @@
+
+body {
+    background-color: #fffadc;
+    font-family: 'Inknut Antiqua', serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .topo {
+    background-color: #2f362d;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    color: #fffadc;
+    font-family: 'Paquito', serif;
+    font-size: 40px;
+  }
+  
+  .logo {
+    font-size: 64px;
+    font-family: 'Paquito', serif;
+  }
+  
+  .logo span {
+    display: block;
+    font-size: 48px;
+  }
+  
+  .menu {
+    list-style: none;
+    display: flex;
+    gap: 40px;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .menu a {
+    text-decoration: none;
+    color: #fffadc;
+    font-size: 32px;
+    transition: 0.3s;
+  }
+  
+  .menu a:hover {
+    opacity: 0.7;
+  }
+  
+  .conteudo {
+    min-height: calc(100vh - 160px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 20px;
+  }
+  
+  .caixa {
+    background-color: #fff5cc;
+    padding: 40px;
+    max-width: 800px;
+    border-radius: 40px;
+    box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  }
+  
+  .caixa h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    font-family: 'Paquito', serif;
+  }
+  
+  .caixa p {
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+  }
+  
+  .rodape {
+    background-color: #2f362d;
+    color: #fffadc;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+  }
+  
