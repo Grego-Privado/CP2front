@@ -62,7 +62,7 @@ nav ul li a:hover {
     justify-content: center;
     align-items: center;
     gap: 40px;
-    padding: 60px 40px;
+    padding: 250px 40px;
     overflow-x: hidden;
     position: relative;
 }
@@ -70,7 +70,7 @@ nav ul li a:hover {
 .banner img {
     border-radius: 90px;
     object-fit: cover;
-    height: 320px;
+    height: 420px;
     width: 490px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.25);
     transition: transform 0.8s ease, opacity 0.8s ease;

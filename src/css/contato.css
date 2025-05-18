@@ -50,7 +50,7 @@ body {
     min-height: calc(100vh - 160px);
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: top;
     padding: 40px 20px;
   }
   
